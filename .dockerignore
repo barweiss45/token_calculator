@@ -1,2 +1,3 @@
 # ignore to pull into container
 .env-template
+document_repo/*

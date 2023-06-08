@@ -1,4 +1,5 @@
-# Ignore .env fiile
+# Ignore .env fiile and PDF Repo
+document_repo/*
 .env
 
 # Ignore others

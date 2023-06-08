@@ -1,0 +1,15 @@
+version: '3'
+services:
+  token-calculator:
+    env_file:
+      - .env
+    container_name: token-calculator
+    build:
+      context: "."
+    ports:
+     - "8502:8502"
+    volumes:
+      - ./document_repo/:/app/document_repo:rw
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+
