@@ -1,0 +1,2 @@
+# ignore to pull into container
+.env-template

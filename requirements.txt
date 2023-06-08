@@ -1,0 +1,5 @@
+# Required Modules
+openai==0.27.8
+streamlit==1.23.1
+tiktoken==0.4.0
+python-dotenv==1.0.0
